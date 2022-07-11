@@ -1,0 +1,141 @@
+.game_conteiner {
+    background: linear-gradient(to right, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%);
+    margin-bottom: 0;
+}
+
+.game_free {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: relative;
+}
+
+.game_free__img {
+    width: 850px;
+    border-radius: 15px;
+}
+
+.game_free__link {
+    position: absolute;
+    top: 9px;
+    right: 505px;
+    border: 2px solid;
+    padding: 5px 25px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.game_link {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.game_link__ul {
+    display: flex;
+    position: absolute;
+    left: 300px;
+    list-style-type: none;
+}
+
+.game_a {
+    font-size: 24px;
+    font-weight: 700;
+    color: #293d57;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.game_h1 {
+    margin: auto;
+    margin-left: 10px;
+}
+
+.geme_content__header {
+    display: flex;
+    width: 315px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.game_p {
+    position: absolute;
+    left: 265px;
+    color: #293d57;
+    width: 30px;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.game__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 95px;
+    font-size: 18px;
+    color: #293d57;
+}
+
+.game_text_two {
+    padding-bottom: 20px;
+    border-bottom: 5px solid #293d57;
+    border-radius: 20px;
+}
+
+.game__text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.game_a:hover {
+    border-bottom: 3px solid #293d57;
+    border-radius: 10px;
+}
+
+.game_li {
+    margin: 20px 15px 0px;
+}
+
+.game_img {
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game_img__two {
+    width: 340px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.game_game {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 70px;
+}
+
+.game_geme__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.game_game__a {
+    color: red;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    flex-grow: 0;
+    flex: 1;
+}

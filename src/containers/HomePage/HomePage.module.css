@@ -1,0 +1,101 @@
+.content {
+    background: linear-gradient(135deg, #ebf1f6 0%,#abd3ee 48%,#89c3eb 55%,#d5ebfb 100%);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.home_text {
+    width: 550px;
+    text-align: center;
+    margin-top: 150px;
+    color: #2b2b2b;
+}
+
+.home_text_two {
+    width: 550px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+    color: #2b2b2b;
+}
+
+.home_glass {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 390px;
+    left: 150px;
+}
+
+.home_coffe {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    top: 450px;
+    right: 140px;
+}
+
+.home_notebook {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 260px;
+    right: 150px;
+}
+
+.home_leptop {
+    width: 610px;
+    height: auto;
+    margin: 35px 0;
+}
+
+.home_shedow {
+    display: block;
+    width: 910px;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 284px;
+    left: 435px
+}
+
+.home_colum {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_colum_one, .home_colum_two,.home_colum_three,.home_colum_four,.home_colum_five,.home_colum_six {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.home_scales,.home_height,.home_stopwatch,.home_method,.home_pc {
+    width: 250px;
+    height: auto;
+    margin: 0px 25px;
+}
+
+.home_men {
+    width: 120px;
+    height: auto;
+    margin: 0px 25px;
+}
+
+.home_method {
+    width: 220px;
+    height: auto;
+    margin: 0px 25px;
+}
+
+.home_title_colum {
+    width: 450px;
+    text-align: center;
+}

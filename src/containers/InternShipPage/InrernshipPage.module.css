@@ -1,0 +1,123 @@
+.intership__coteiner {
+    padding: 125px 0px;
+    background-color: #F6FEE5;
+}
+
+.intership {
+    text-align: center;
+}
+
+.intership__img {
+    width: 750px;
+    border-radius: 20px;
+}
+
+.intership__ul {
+    padding: 25px 0px 15px;
+}
+
+.intership__link {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.intership_li {
+    padding: 0px 25px;
+}
+
+.intership__a {
+    font-weight: 700;
+    font-size: 24px;
+    color: #435a6d;
+    text-decoration: none;
+}
+
+
+.intership__a:hover {
+    border-bottom: 3px solid #435a6d;
+    border-radius: 10px;
+}
+
+.intership__a:active {
+    color: rgba(34, 60, 80, 0.2);
+    border-bottom: 0px solid #435a6d;
+}
+
+.intership_about {
+    display: flex;
+    padding: 25px 200px;
+}
+
+.intership_img__ava {
+    width: 150px;
+    border-radius: 50px;
+}
+
+.intership_handbutton {
+    display: flex;
+    flex-direction: column;
+}
+
+.intership_item__h2 {
+    padding: 45px 45px 15px;
+    color: #435a6d;
+}
+
+.intership__bootom {
+    margin-left: 45px;
+    padding: 10px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #435a6d;
+    border-radius: 15px;
+    border: 3px solid #435a6d;
+    background-color: #F6FEE5;
+}
+
+.intership__bootom:hover {
+    box-shadow: 0px -1px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    border-bottom: 3px solid #435a6d;
+    border-radius: 15px;
+}
+
+.intership__bootom:active {
+    color: rgba(34, 60, 80, 0.2);
+    border-bottom: 0px solid #435a6d;
+}
+
+.intership_item__p {
+    padding: 0px 135px;
+    display: flex;
+    justify-content: center;
+}
+
+.intership_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intership_item__img {
+    padding: 20px;
+    width: 1150px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+.intership_item__text {
+    font-size: 20px;
+    width: 500px;
+    color: #435a6d;
+}
+
+.intership_item__h2 {
+    font-size: 29px;
+    color: #435a6d;
+}
+
+.intership__item__zag {
+    padding: 20px 0px;
+    color: #435a6d;
+}

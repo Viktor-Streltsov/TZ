@@ -1,0 +1,128 @@
+.menu_container {
+    padding: 125px 0px 50px;
+    background: linear-gradient(135deg, #ebf1f6 0%,#89c3eb 46%,#89c3eb 46%,#89c3eb 46%,#abd3ee 54%,#d5ebfb 100%);
+}
+
+.menu_header__logo {
+    display: flex;
+    justify-content: center;
+    color: #435a6d;
+}
+
+.menu_header__item {
+    width: 600px;
+    height: auto;
+}
+
+.menu_header__img {
+    padding-left: 70px;
+}
+
+.menu_header__imgwork {
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.menu_header__cap {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.menu_header__maun {
+    background-color: #fff;
+}
+
+.menu_header__p {
+    width: 350px;
+    font-size: 18px;
+    font-weight: 400;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.menu_header__link {
+    border: 3px solid;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FF8C00;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.menu_header__link:hover {
+    box-shadow: 0px -1px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    color: #fff;
+    border-bottom: 3px solid #435a6d;
+    border-radius: 20px;
+}
+
+.menu_header__link:active {
+    color: #fff;
+    border: 0px solid #435a6d;
+}
+
+.memu_list {
+    margin-top: 65px;
+}
+
+.menu_list__ul {
+    display: flex;
+    justify-content: center;
+    color: #435a6d;
+    list-style-type: none;
+}
+
+.menu_list__text {
+    width: 300px;
+    height: auto;
+    margin: 0px 40px;
+}
+
+.menu_list__h1 {
+    margin: 20px 0px;
+}
+
+.menu_colonca {
+    margin-top: 75px;
+    background: linear-gradient(135deg, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%);
+    padding: 35px 0;
+}
+
+.menu_colonca__header {
+    text-align: center;
+    width: 700px;
+    color: #2F4F4F;
+}
+
+.menu_colonca__ul {
+    display: flex;
+    justify-content: center;
+    margin: 45px;
+    list-style-type: none;
+}
+
+.menu_colonca__li {
+    width: 200px;
+    height: auto;
+    margin: 0px 10px;
+    padding: 20px;
+    border-radius: 20px;
+    /* background-color: silver; */
+}
+
+.menu_colonca__h {
+    margin: 15px 0px;
+}
+
+.menu_colonca__h {
+    color: #2F4F4F;
+}
+
+.menu_colonca__img {
+    width:150px;
+    height: 150px;
+    border-radius: 50px;
+}

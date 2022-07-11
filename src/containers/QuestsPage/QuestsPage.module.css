@@ -1,0 +1,96 @@
+.quests_conteiner {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F6FEE5;
+}
+
+.quests_free {
+    display: block;
+    padding-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    width: 1050px;
+    height: auto;
+}
+
+.quests_free__img {
+    border-radius: 10px;
+}
+
+.quests_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quests_link__ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.quests_li {
+    margin: 0px 30px 35px;
+}
+
+.quests_a {
+    color: #435a6d;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.quests_a:hover {
+    border-bottom: 3px solid #435a6d;
+    border-radius: 10px;
+}
+
+.quests_a:active {
+    color: rgba(34, 60, 80, 0.2);
+    border-bottom: 0px solid #435a6d;
+}
+
+.quests_game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quests_geme__content {
+    margin-bottom: 25px;
+    padding: 25px 0;
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.quests_img {
+    width: 330px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quests_h1 {
+    color: #435a6d;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.quests_p {
+    color: #435a6d;
+    padding: 0 25px;
+    margin-bottom: 35px;
+}
+
+.quests_game__a {
+    flex: 1;
+    width: 120px;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+    text-decoration: none;
+}

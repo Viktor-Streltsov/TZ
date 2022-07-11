@@ -1,0 +1,103 @@
+.content_sale {
+    background: url('https://st2.depositphotos.com/1185628/11085/v/950/depositphotos_110858256-stock-illustration-binary-code-digital-illustration.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sale_end {
+    display: flex;
+    justify-content: center;
+}
+
+.sale_img {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 30%;
+    border: 2px solid;
+}
+
+.sale_notsel {
+    font-size: 44px;
+    color: red;
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 30px 75px;
+    position: absolute;
+    background-color: antiquewhite;
+    opacity: .9;
+    transform: rotate(45deg);
+    left: 520px;
+    top: 250px
+}
+
+.premium {
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.premium_item {
+    width: 450px;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.premium_item h3{
+    margin: 20px;
+}
+
+.premium_item__end {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px ;
+}
+
+.ligo_premium {
+    color: #293d57;;
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.premium_link {
+    display: flex;
+    justify-content: center;
+}
+
+.premium_item {
+    color: #293d57;
+    font-weight: 400;
+}
+
+.premium_link__text {
+    color: #293d57;;
+    height: 25px;
+    padding: 10px 10px 5px;
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 49%,#3690f0 53%,#1e69de 100%);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.premium_link__text:hover {
+    box-shadow: 0px -1px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    color: #fff;
+    border-bottom: 3px solid #435a6d;
+    border-radius: 10px;
+}
+
+.premium_link__text:active {
+    color: rgba(34, 60, 80, 0.2);
+    border-bottom: 0px solid #435a6d;
+}

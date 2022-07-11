@@ -1,0 +1,11 @@
+.drop__select {
+    padding: 3px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #293d57;
+    border: 1px solid #293d57;
+    color: #949eab;
+    font-size: 16px;
+    -webkit-appearance: none;
+    cursor: pointer;
+}

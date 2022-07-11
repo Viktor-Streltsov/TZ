@@ -1,0 +1,134 @@
+.quizzes_conteiner {
+    background: linear-gradient(135deg, rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%);
+    margin-bottom: 0;
+}
+
+.quizzes_free {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: relative;
+}
+
+.quizzes_content {
+    padding: 25px;
+    width: 350px;
+    margin: 0px 30px;
+}
+
+.quizzes_free__img {
+    width: 850px;
+    border-radius: 15px;
+}
+
+.quizzes_free__link {
+    position: absolute;
+    top: 9px;
+    right: 505px;
+    border: 2px solid;
+    padding: 5px 25px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+
+.quizzes_link {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.quizzes_link__ul {
+    display: flex;
+    position: absolute;
+    left: 360px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    list-style-type: none;
+    background-color: #293d57;
+}
+
+.quizzes_a {
+    font-size: 24px;
+    font-weight: 700;
+    color: #293d57;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.quizzes_a:hover {
+    border-bottom: 3px solid #293d57;
+    border-radius: 10px;
+}
+
+.quizzes_img {
+    width: 80px;
+    height: auto;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+.quizzes_game {
+    width: 1075px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 155px;
+}
+
+.quizzes_content {
+    width: 1240px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quizzes_geme__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0px 10px;
+    margin-bottom: 45px;
+    padding: 25px 0px;
+}
+
+.quizzes_h1 {
+    color: #293d57;
+    margin: 15px 0;
+}
+
+.quizzes_p {
+    color: #293d57;
+    width: 270px;
+    margin: 15px 27px;
+}
+
+.quizzes_game__a {
+    color: red;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.quizzes_but {
+    margin-top: 30px;
+}
+
+.quizzes_quizzes__a {
+    height: auto;
+    border: 2px solid red;
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+}
